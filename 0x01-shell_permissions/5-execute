@@ -1,2 +1,2 @@
 #!/bin/bash
-su chmod 740
+chmod u+x hello
