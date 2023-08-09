@@ -1,2 +1,4 @@
 #!/bin/bash
+export POWER = 330
+export DIVIDE = 11
 $(($POWER / $DIVIDE))
