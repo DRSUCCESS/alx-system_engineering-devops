@@ -1,9 +1,9 @@
-# Creates a file
-file { '/tmp/school':
-  ensure  => file,
-  path    => '/tmp/school',
-  mode    => '0744',
-  owner   => 'www-data',
-  group   => 'www-data',
-  content => 'I love Puppet'
+# Create a PP File
+file { '/tmp/holberton':
+  ensure  => file, # Makes sure File Exists
+  path    => '/tmp/holberton', # PATH
+  mode    => '0744',           # Permissions
+  owner   => 'www-data',       # Owner
+  group   => 'www-data',       # Group
+  content => 'I love Puppet',  # Content
 }
